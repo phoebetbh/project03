@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Movies Journal</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white p-8">
+    <!-- Header -->
+    <header class="mx-10 mb-6 flex justify-between items-center py-6">
+      <!-- Logo -->
+      <div class="w-36">
+        <img
+          src="movietime_logo.png"
+          alt="Logo"
+          class="w-full h-auto object-contain hover:transform-none"
+        />
+      </div>
+      <!-- Navigation -->
+      <nav>
+        <ul class="flex space-x-4 list-none">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="journal.html" class="hover:underline">Journal</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="mx-10 mb-12">
+      <main>
+        <h1 class="text-2xl mb-4">Your Favorite Movies</h1>
+        <div id="favorite-movies-container" class="space-y-4">
+          <!-- Movie cards will be inserted here -->
+        </div>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="flex justify-center items-end pt-10">
+      <p>© 2025 Movie's Time. All rights reserved.</p>
+    </footer>
+
+    <!-- Your script -->
+    <script src="journal.js"></script>
+  </body>
+</html>
