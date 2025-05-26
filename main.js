@@ -43,6 +43,10 @@ function movieSection(movies) {
       section.appendChild(img);
     }
   });
+  //const sectionContainer = document.createElement("div");
+  //sectionContainer.className = "flex justify-center section-container";
+  //sectionContainer.appendChild(section);
+
   return section;
 }
 
@@ -131,7 +135,7 @@ function createVideoTemplate(data, content) {
   const videos = data.results;
   const length = Math.min(4, videos.length);
   const iframeContainer = document.createElement("div");
-  iframeContainer.className = "flex flex-col md:flex-row gap-4";
+  iframeContainer.className = "flex justify-center flex-col md:flex-row gap-4";
 
   for (let i = 0; i < length; i++) {
     const video = videos[i];
@@ -170,7 +174,7 @@ document.onclick = function (event) {
       if (movieData) {
         const card = createMovieCard(movieData);
         const cardContainer = document.createElement("div");
-        cardContainer.className = "movie-card-container";
+        cardContainer.className = "flex justify-center movie-card-container ";
 
         // Remove existing card if any
         const existingCard = document.querySelector(".movie-card-container");
