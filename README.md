@@ -18,3 +18,6 @@ index.html ↔ main.js, journal.html ↔ journal.js
 - FR012 Add to Favourites “Add to favourites” button stores the movie as an object in an array inside localStorage.
 - FR013 Journal Page Display Journal page lists favourite movies from localStorage, showing image, title, info.
 - FR014 Personal Notes Allow adding notes to each movie; persist the note on the same object in localStorage.
+
+🎥 Watch it live!
+https://phoebetbh.github.io/project03/
